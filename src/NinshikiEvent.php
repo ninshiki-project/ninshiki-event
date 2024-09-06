@@ -2,4 +2,6 @@
 
 namespace MarJose123\NinshikiEvent;
 
-class NinshikiEvent {}
+class NinshikiEvent
+{
+}
