@@ -10,29 +10,20 @@ class NewPostAdded
 
     /**
      * The Post Instance.
-     *
-     * @var mixed
      */
     public mixed $post;
 
     /**
      * The Recipient Instance.
-     *
-     * @var mixed
      */
     public mixed $recipients;
 
-
     /**
      * Create a new event instance.
-     *
-     * @param mixed $post
-     * @param mixed $recipients
      */
     public function __construct(mixed $post, mixed $recipients)
     {
         $this->post = $post;
         $this->recipients = $recipients;
     }
-
 }

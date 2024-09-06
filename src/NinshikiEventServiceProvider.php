@@ -2,7 +2,6 @@
 
 namespace MarJose123\NinshikiEvent;
 
-use MarJose123\NinshikiEvent\Commands\NinshikiEventCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
