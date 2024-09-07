@@ -14,19 +14,19 @@ composer require ninshiki-project/ninshiki-event
 
 ## Events
 
-| Events                                                        | Remarks                                                 | Return Data                               |
-|---------------------------------------------------------------|---------------------------------------------------------|-------------------------------------------|
-| `MarJose123\NinshikiEvent\Events\Post\NewPostAdded`           | This will trigger once a new post is added              | `Post Instance` and `Recipients Instance` |
-| `MarJose123\NinshikiEvent\Events\Post\PostToggleLike`         | This will trigger once a post has been liked or unliked | `Post Instance`                           |
-| `MarJose123\NinshikiEvent\Events\Session\LogoutOtherBrowser`  |                                                         |                                           |
-| `MarJose123\NinshikiEvent\Events\Session\UserChangedPassword` |                                                         |                                           |
-| `MarJose123\NinshikiEvent\Events\Session\UserLogin`           |                                                         |                                           |
-| `MarJose123\NinshikiEvent\Events\Session\UserLogout`          |                                                         |                                           |
-| `MarJose123\NinshikiEvent\Events\Shop\NewProductAdded`        |                                                         |                                           |
-| `MarJose123\NinshikiEvent\Events\Shop\UserRedeemFromShop`     |                                                         |                                           |
-| `MarJose123\NinshikiEvent\Events\User\UserAdded`              |                                                         |                                           |
-| `MarJose123\NinshikiEvent\Events\User\UserDeleted`            |                                                         |                                           |
-| `MarJose123\NinshikiEvent\Events\User\UserUpdated`            |                                                         |                                           |
+| Events                                                        |
+|---------------------------------------------------------------|
+| `MarJose123\NinshikiEvent\Events\Post\NewPostAdded`           |
+| `MarJose123\NinshikiEvent\Events\Post\PostToggleLike`         |
+| `MarJose123\NinshikiEvent\Events\Session\LogoutOtherBrowser`  |
+| `MarJose123\NinshikiEvent\Events\Session\UserChangedPassword` |
+| `MarJose123\NinshikiEvent\Events\Session\UserLogin`           |
+| `MarJose123\NinshikiEvent\Events\Session\UserLogout`          |
+| `MarJose123\NinshikiEvent\Events\Shop\NewProductAdded`        |
+| `MarJose123\NinshikiEvent\Events\Shop\UserRedeemFromShop`     |
+| `MarJose123\NinshikiEvent\Events\User\UserAdded`              |
+| `MarJose123\NinshikiEvent\Events\User\UserDeleted`            |
+| `MarJose123\NinshikiEvent\Events\User\UserUpdated`            |
 
 
 
