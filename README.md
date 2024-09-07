@@ -29,7 +29,6 @@ composer require ninshiki-project/ninshiki-event
 | `MarJose123\NinshikiEvent\Events\User\UserUpdated`            |
 
 
-
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
