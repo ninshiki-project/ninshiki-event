@@ -17,6 +17,7 @@ composer require ninshiki-project/ninshiki-event
 | Events                                                        |
 |---------------------------------------------------------------|
 | `MarJose123\NinshikiEvent\Events\Post\NewPostAdded`           |
+| `MarJose123\NinshikiEvent\Events\Post\PostMentionUser`        |
 | `MarJose123\NinshikiEvent\Events\Post\PostToggleLike`         |
 | `MarJose123\NinshikiEvent\Events\Session\LogoutOtherBrowser`  |
 | `MarJose123\NinshikiEvent\Events\Session\UserChangedPassword` |
